@@ -30,8 +30,7 @@ int main(void)
 	while (flag)
 	{
 		menu();
-		int choice = choose();
-		switch (choice)
+		switch (choice())
 		{
 			case 0:
 				end();
